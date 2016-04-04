@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 声明自定义View的属性 -->
+    <declare-styleable name="ProgressView">
+        <attr name="sweepStep" format="integer"></attr>
+        <attr name="padding" format="integer"></attr>
+        <attr name="circleColor" format="color|reference"></attr>
+        <attr name="sweepColor" format="color|reference"></attr>
+        <attr name="startAngle" format="integer"></attr>
+    </declare-styleable>
+
+</resources>

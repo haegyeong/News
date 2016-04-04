@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/item_headline_img"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        fresco:fadeDuration="300"
+        fresco:actualImageScaleType="focusCrop"
+
+        fresco:placeholderImage="@drawable/ic_loading"
+        fresco:failureImage="@mipmap/ic_check"
+        fresco:failureImageScaleType="centerInside"
+
+        fresco:retryImage="@mipmap/ic_dashboard"
+        fresco:retryImageScaleType="centerInside"
+
+        />
+    <TextView
+        android:id="@+id/item_headline_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="title"
+        android:layout_toRightOf="@+id/item_headline_img"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/item_headline_digest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:layout_toRightOf="@+id/item_headline_img"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/item_headline_title"
+        />
+    <TextView
+        android:layout_below="@+id/item_headline_digest"
+        android:id="@+id/item_headline_replayCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="15dp"
+       android:padding="10dp"
+        />
+
+</RelativeLayout>

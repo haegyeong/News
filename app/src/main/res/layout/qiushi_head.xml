@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+
+    <!--headImage-->
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/iv_heard"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:backgroundImage="@null"
+        fresco:overlayImage="@null"
+        fresco:placeholderImage="@mipmap/ic_heard"
+        fresco:pressedStateOverlayImage="@color/window_background"
+        fresco:retryImageScaleType="centerCrop"
+        fresco:roundAsCircle="false"
+        fresco:roundedCornerRadius="180dp" />
+
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/iv_heard"
+        android:text="问问456"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_qcomtent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_heard"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="8dp"
+        android:paddingLeft="10dp"
+        android:text="小区管理比较严，小区业主的车进门要刷两次卡，大门一次生活区一次，以上为背景......开车的朋友应该知道刷卡得靠的近一点才行，今天下班看见一大姐，把卡粘在一苍蝇拍子上，到地方直接举苍蝇拍子，我太佩服了。打算明天也做一个。"
+        android:textColor="#a444"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_qup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_qcomtent"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:text="好笑 473"
+        android:textColor="#8444" />
+
+    <TextView
+        android:id="@+id/tv_qcomment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_qcomtent"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/tv_qup"
+        android:paddingLeft="15dp"
+        android:text="评论 23"
+        android:textColor="#8444" />
+
+    <TextView
+        android:id="@+id/tv_qshare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_qcomtent"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/tv_qcomment"
+        android:paddingLeft="15dp"
+        android:text="分享 6"
+        android:textColor="#8444" />
+
+    <ImageView
+        android:id="@+id/iv_up"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_qup"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="15dp"
+        android:src="@mipmap/smile" />
+
+    <ImageView
+        android:id="@+id/iv_down"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_qup"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@id/iv_up"
+        android:paddingLeft="15dp"
+        android:src="@mipmap/sad" />
+
+    <ImageView
+        android:id="@+id/iv_comment"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_qup"
+        android:layout_toRightOf="@id/iv_down"
+        android:paddingLeft="15dp"
+        android:src="@mipmap/comment" />
+
+    <ImageView
+        android:id="@+id/iv_share"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_qup"
+        android:paddingLeft="15dp"
+        android:src="@mipmap/share" />
+
+</RelativeLayout>

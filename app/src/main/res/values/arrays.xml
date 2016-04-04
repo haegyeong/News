@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="arrTabTitles">
+        <item>头条</item>
+        <item>体育</item>
+        <item>军事</item>
+        <item>糗事</item>
+        <item>设计</item>
+        <item>图片</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="true"><shape android:shape="oval">
+            <size android:height="8dp" android:width="8dp"></size>
+            <!-- 实体，填充颜色-->
+            <solid android:color="#aa000000" />
+        </shape></item>
+    <item android:state_enabled="false"><shape android:shape="oval">
+            <size android:height="8dp" android:width="8dp"></size>
+
+            <solid android:color="#aaffffff" />
+        </shape></item>
+
+</selector>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\ProjectNews\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\classes-91dbf5d7e1a0c989327e79af65cdeeb6ba9802c5.jar" />
+    </item>
+    <item
+        jar="F:\ProjectNews\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\classes-6166efbf79d5d1216dc141c8ee0dd8d887f250b6.jar" />
+    </item>
+    <item
+        jar="E:\sdk-for-studio\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-3d4168f58256fa3add91e3107da892a69737a6ce.jar" />
+    </item>
+    <item
+        jar="F:\ProjectNews\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="39bd9f893c75eac9e76559cc4e96af6e417afdc5">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\classes-c0d8c7907888dd22321070f1f6b11b2db2fd4fb9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.7.5\7a15a7db50f86c4b64aa3367424a60e3a325b8f1\okhttp-2.7.5.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7a15a7db50f86c4b64aa3367424a60e3a325b8f1">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\okhttp-2.7.5-5414a657ed49794aadf3035440f5bfb3280277c2.jar" />
+    </item>
+    <item
+        jar="F:\ProjectNews\app\build\intermediates\exploded-aar\com.github.medyo\dynamicbox\1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="721a764760e366ebe85794496026cb74157a4f6e">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\classes-bcff2ff0ea8a26342704a90a810cd8a0ab92d725.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\library-2.4.0-dd460f45d27a359687729c3c169358b1eda3100b.jar" />
+    </item>
+    <item
+        jar="F:\ProjectNews\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3158c15bb0ae97575debdb40cfcd8f0f9f244526">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\classes-0a0b92837805c52e290fd3f94833c0163ebf2db6.jar" />
+    </item>
+    <item
+        jar="F:\ProjectNews\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\classes-81f3a730d649c97926f8103053297a9aeeb255a0.jar" />
+    </item>
+    <item
+        jar="F:\ProjectNews\app\build\intermediates\exploded-aar\in.srain.cube\ultra-ptr\1.0.11\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a0bdf70123d26dd83d8462d602b3a83a41934cf6">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\classes-1c5732a2dbab3f7038f85e7af2e7542379a7d64e.jar" />
+    </item>
+    <item
+        jar="F:\ProjectNews\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\classes-6bc2c60366b18830937fb89eaa06e68b4e5936e4.jar" />
+    </item>
+    <item
+        jar="F:\ProjectNews\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-c5116f55f2d472a6d455da03b05c31e47511280a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-2428dbd5eabf65ae69bc01abd6e4b72d08e545aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\okio-1.6.0-c410569bd3ae660f2a7eceb3af69efc833b46b70.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\gson-2.6.2-002b7fbf7a0de167c934ae8280ecce1c989b18df.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-a27a8f82ac0b46c0541b7fd779ecc0cc456b9053.jar" />
+    </item>
+    <item
+        jar="F:\ProjectNews\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ca51025f4a58fc7fb6cfaa85e7d09b7ae47e6187">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\classes-67c0860ae072f7c54dbed86be0d79cdd56352410.jar" />
+    </item>
+    <item
+        jar="F:\ProjectNews\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="57528b5deee77bfa2188fc279fd45066366f17f5">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\classes-270f5d1b66a6d39c449750c1c308421a6c202c08.jar" />
+    </item>
+    <item
+        jar="F:\ProjectNews\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\classes-24f1e6c2bb58fc64bd3658b49d1f496ae5732bf9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-fc861cbde294a7e4a9efd57936d766cb077b60e2.jar" />
+    </item>
+    <item
+        jar="F:\ProjectNews\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4ee95617ab850030c51486d02bc9d207b14419c6">
+        <dex dex="F:\ProjectNews\app\build\intermediates\pre-dexed\debug\classes-f23f4d7a69403d760c8658ae6bffb291579f2874.jar" />
+    </item>
+
+</items>

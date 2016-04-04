@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.mobiletrain.android37_materialdesigndemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:name=".app.NewsApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/discover"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DesignDemo">
+        <activity android:name=".activity.MainActivity">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".activity.DetailActivity" />
+        <activity android:name=".activity.HeadlineNormalDetailActivity"></activity>
+
+        <activity android:name=".activity.ZhihuInfoActivity"/>
+        <activity android:name=".activity.CommentActivity"/>
+        <activity android:name=".activity.DetailWarActivity"/>
+        <activity android:name=".activity.DetailQiuShiActivity"/>
+        <activity android:name=".activity.SportCommentActivity"/>
+        <activity android:name=".activity.SportDetailActivity"/>
+        <activity android:name=".activity.ImageInfoActivity"/>
+
+        <activity android:name=".activity.FlashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.HeadlineSpecialDetailActivity"></activity>
+        <receiver android:name=".receiver.NetBroadcastReceiver"/>
+    </application>
+
+</manifest>

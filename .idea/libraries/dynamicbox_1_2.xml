@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="dynamicbox-1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.medyo/dynamicbox/1.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.medyo/dynamicbox/1.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.medyo/dynamicbox/1.2/70c7f7c71815911201465b36355c4cef56797ab3/dynamicbox-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

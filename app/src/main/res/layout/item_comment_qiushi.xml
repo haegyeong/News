@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+
+    <!--headImage-->
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/iv_commment_heard"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:backgroundImage="@null"
+        fresco:overlayImage="@null"
+        fresco:placeholderImage="@mipmap/ic_heard"
+        fresco:pressedStateOverlayImage="@color/window_background"
+        fresco:retryImageScaleType="centerCrop"
+        fresco:roundAsCircle="false"
+        fresco:roundedCornerRadius="180dp" />
+
+    <TextView
+        android:id="@+id/tv_com_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iv_commment_heard"
+        android:text="这世道，人不如狗"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_com_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_com_username"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/iv_commment_heard"
+        android:text="一直都是老师开心就好"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_com_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_com_comment"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/iv_commment_heard"
+        android:text="10分钟前"
+        android:textColor="#6444"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_com_floor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:text="8"
+        android:textColor="#6444" />
+
+    <ImageView
+        android:id="@+id/iv_agree"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/tv_com_time"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/agree"
+        android:textColor="#6444" />
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/nav_hot"
+            android:icon="@mipmap/ic_dashboard"
+            android:title="热门" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@mipmap/ic_event"
+            android:title="反馈意见" />
+        <item
+            android:id="@+id/nav_provite"
+            android:icon="@mipmap/ic_headset"
+            android:title="提供素材" />
+    </group>
+
+    <item android:title="其他选项">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@mipmap/ic_dashboard"
+                    android:title="设置" />
+            </group>
+        </menu>
+    </item>
+</menu>

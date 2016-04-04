@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<in.srain.cube.views.ptr.PtrFrameLayout
+    android:id="@+id/layout_comment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/content_title"
+        android:textSize="15sp"
+        android:onClick="finsh"
+        android:gravity="center_vertical"
+        android:textColor="#fff"
+        android:text="    评论"
+
+        android:background="#00f"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</in.srain.cube.views.ptr.PtrFrameLayout>
+</LinearLayout>
